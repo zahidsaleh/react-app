@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-export default function MyApp() {
+function AboutPage() {
   return (
-    <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
-    </div>
+    <>
+      <h1>About</h1>
+      <p>Hello there.<br />How do you do?</p>
+    </>
   );
 }
+export default AboutPage;
